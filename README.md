@@ -8,6 +8,10 @@ Code is coming soon.
   <img src="docs/network_architecture.png">
 </p>
 
+## License
+
+`SIENet` is released under the [Apache 2.0 license](LICENSE).
+
 ## Acknowledgment
 
 Thanks for the works below, this project will not be possible without these excellent codebases. 
