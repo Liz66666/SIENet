@@ -4,7 +4,9 @@ SIENet: Spatial Information Enhancement Network for 3D Object Detection from Poi
 
 ## Overview
 
-![avatar](docs\network_architecture.png)
+<p align="center">
+  <img src="docs/network_architecture.png">
+</p>
 
 ## Acknowledgment
 
