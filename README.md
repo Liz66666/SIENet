@@ -3,9 +3,10 @@
 This is the official implementation of  ***SIENet*** (Pattern Recognition, 2022), a 2-stage detector leveraging spatial structure information for robust and accurate 3D detection from point clouds. For more details, please refer to:
 
 **Spatial information enhancement network for 3D object detection from point cloud**
- [Ziyu Li](https://github.com/Liz66666), Yuncong Yao, Zhibin Quan, Jin Xie, Wankou Yang
 
-**[[Paper](https://www.sciencedirect.com/science/article/pii/S0031320322001650)] **
+[Ziyu Li](https://github.com/Liz66666), Yuncong Yao, Zhibin Quan, Jin Xie, Wankou Yang
+
+**[[Paper](https://www.sciencedirect.com/science/article/pii/S0031320322001650)]**
 
 ## Introduction
 
