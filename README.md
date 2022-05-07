@@ -58,6 +58,19 @@ python setup.py develop
 
 d. Prepare the KITTI dataset according to the  [`[guidance doc]`](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) of OpenPCDet.
 
+## Model Zoo
+
+We provide the checkpoint of SIENet, as well as the pre-trained spatial shape prediction network (reproduced version of PCN on car class). 
+
+| Model  | Download                                                     |
+| ------ | ------------------------------------------------------------ |
+| SIENet | [model-235M](https://drive.google.com/file/d/1JEEwHaexunaDdKIZb8qz8Ni0GkuhEtnn/view?usp=sharing) |
+| PCN    | [model-78M](https://drive.google.com/file/d/1VzzzXyQ1-bcF0D36yPszCwfINg06DJPn/view?usp=sharing) |
+
+- **performance**
+
+
+
 ## Training
 
 You could optionally add extra command line parameters to specify your preferred parameters. The performance of SIENet is quite unstable on KITTI. If you cannot reproduce the results, remember to run it multiple times.
