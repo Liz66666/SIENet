@@ -1,3 +1,5 @@
+
+
 # SIENet: Spatial Information Enhancement Network
 
 This is the official implementation of  ***SIENet*** (Pattern Recognition, 2022), a 2-stage detector leveraging spatial structure information for robust and accurate 3D detection from point clouds. For more details, please refer to:
@@ -62,12 +64,21 @@ d. Prepare the KITTI dataset according to the  [`[guidance doc]`](https://github
 
 We provide the checkpoint of SIENet, as well as the pre-trained spatial shape prediction network (reproduced version of PCN on car class). 
 
-| Model  | Download                                                     |
-| ------ | ------------------------------------------------------------ |
-| SIENet | [model-235M](https://drive.google.com/file/d/1JEEwHaexunaDdKIZb8qz8Ni0GkuhEtnn/view?usp=sharing) |
-| PCN    | [model-78M](https://drive.google.com/file/d/1VzzzXyQ1-bcF0D36yPszCwfINg06DJPn/view?usp=sharing) |
+| Model  | Easy@R11 | Mod.@R11 | Hard@R11 | Easy@R40 | Mod.@R40 | Hard@R40 |                           Download                           |
+| :----: | :------: | :------: | :------: | :------: | :------: | :------: | :----------------------------------------------------------: |
+| SIENet |  89.57   |  84.40   |  79.08   |  92.49   |  85.43   |  83.05   | [model-235M](https://drive.google.com/file/d/1JEEwHaexunaDdKIZb8qz8Ni0GkuhEtnn/view?usp=sharing) |
+|  PCN   |    -     |    -     |    -     |    -     |    -     |    -     | [model-78M](https://drive.google.com/file/d/1VzzzXyQ1-bcF0D36yPszCwfINg06DJPn/view?usp=sharing) |
 
-- **performance**
+- As mentioned in the paper, the spatial shape prediction network needs a pre-trained PCN to initialize, thus please download the pre-trained PCN and organize it as follows:
+
+```
+SIENet
+├── data
+├── checkpoints
+│	├── pcn_step170000.pth
+├── pcdet
+├── tools
+```
 
 
 
